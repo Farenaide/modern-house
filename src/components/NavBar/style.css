@@ -1,4 +1,10 @@
-.menu__list{
+.nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 182px;
+}
+
+.nav-bar__list{
     display: flex;
     font-family: var(--font-DmSans);   
     font-weight: 400;
@@ -8,6 +14,6 @@
     margin: 0 auto;
 }
 
-.menu__link{
+.nav-bar__link{
     color: var(--color-black);
 }

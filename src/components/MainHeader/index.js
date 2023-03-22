@@ -9,7 +9,7 @@ const MainHeader = ()=>{
         <header class="main-header">
             ${LogoRls()}
             ${NavBar()}
-            ${HeaderButtons()}
+            
         </header>
     `
 }
