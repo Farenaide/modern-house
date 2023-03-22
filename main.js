@@ -3,13 +3,14 @@ import "./src/styles/settings/colors.css"
 import "./src/styles/generic/reset.css"
 
 
-import NavBar from "./src/components/NavBar";
+
+import MainHeader from "./src/components/MainHeader";
 
 const $root = document.querySelector('#root');
 
 
 $root.insertAdjacentHTML('beforeend',
   `
-  ${NavBar()}
+  ${MainHeader()}
   `
 )
