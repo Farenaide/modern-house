@@ -6,8 +6,8 @@ import "./src/styles/generic/reset.css"
 
 
 import MainHeader from "./src/components/MainHeader";
-import MainTitle from "./src/components/MainTitle";
 import MainScreen from "./src/objects/MainScreen";
+import CarouselImage from "./src/components/CarouselImage";
 
 const $root = document.querySelector('#root');
 
@@ -16,5 +16,6 @@ $root.insertAdjacentHTML('beforeend',
   `
   ${MainHeader()}
   ${MainScreen()}
+  ${CarouselImage('Rectangle 212')}
   `
 )
