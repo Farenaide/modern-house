@@ -1,5 +1,5 @@
 import ArchedImage from "../../components/ArchedImage"
-import CircleWaves from "../../components/CircleWaves/index,js"
+import CircleWaves from "../../components/CircleWaves/index.js"
 import MainButton from "../../components/MainButton"
 import MainTitle from "../../components/MainTitle"
 import "./style.css"

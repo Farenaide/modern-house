@@ -8,6 +8,7 @@
     color: var(--color-ice);
     background-color: var(--color-green);
     padding: 14px 24px;
+    cursor: pointer;
 }
 
 .main-button--transparent{    
