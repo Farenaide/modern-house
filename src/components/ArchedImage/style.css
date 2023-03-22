@@ -2,3 +2,9 @@
     width: 589px;
     height: 798px;
 }
+
+.arched-image__welcome{
+    position: absolute;
+    right: -11px;
+    top: 50px;
+}
