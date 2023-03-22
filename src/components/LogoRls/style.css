@@ -1,7 +1,7 @@
 .logo-rls{
     width: 58px;
     height: 39px;
-    background-color: white;
+    background-color: transparent;
     position: relative;
     font-family: var(--font-Dongle);
     font-weight: 700;
