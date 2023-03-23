@@ -23,10 +23,10 @@
 } 
 
 .choice-radio .choice-radio__input[type="radio"]:checked+.choice-radio__label {
-    color: black;
+    color: var(--color-black);
 }
 .choice-radio__input:checked{
-    filter: brightness(0%);
+    filter: brightness(39%);
 }
 
 .choice-radio__label{
