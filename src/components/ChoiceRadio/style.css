@@ -1,0 +1,41 @@
+.choice-radio{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.choice-radio__input{
+    appearance: none;
+    margin: 0;
+    width: 21px;
+    height: 21px;
+    border: 2px solid var(--color-light-gray);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.choice-radio__input::after{
+    content:url(../../assets/visual/Vector.svg);
+} 
+
+.choice-radio .choice-radio__input[type="radio"]:checked+.choice-radio__label {
+    color: black;
+}
+.choice-radio__input:checked{
+    filter: brightness(0%);
+}
+
+.choice-radio__label{
+    text-transform: uppercase;
+    font-family: var(--font-DmSans);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--color-light-gray);
+    cursor: pointer;
+    user-select: none;
+}
+
