@@ -7,7 +7,7 @@ import "./src/styles/generic/reset.css"
 
 import MainHeader from "./src/components/MainHeader";
 import MainScreen from "./src/objects/MainScreen";
-import CarouselImage from "./src/components/CarouselImage";
+import CarouselApartments from "./src/objects/MainCarousel";
 
 const $root = document.querySelector('#root');
 
@@ -16,6 +16,6 @@ $root.insertAdjacentHTML('beforeend',
   `
   ${MainHeader()}
   ${MainScreen()}
-  ${CarouselImage('Rectangle 212')}
+  ${CarouselApartments()}
   `
 )
