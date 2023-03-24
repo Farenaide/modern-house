@@ -19,7 +19,7 @@
 }
 
 .choice-radio__input::after{
-    content:url(../../assets/visual/Vector.svg);
+    content:url(../../assets/visual/checkmark.svg);
 } 
 
 .choice-radio .choice-radio__input[type="radio"]:checked+.choice-radio__label {

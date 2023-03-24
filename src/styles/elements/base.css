@@ -1,10 +1,7 @@
 body{
     background-color: var(--color-ice);
-    display: flex;
-    justify-content: center;
 }
 
 #root{
-    width: 1920px;
     height: 5148px;
 }
