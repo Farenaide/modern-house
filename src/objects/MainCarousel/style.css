@@ -1,4 +1,7 @@
 .main-carousel{
+    margin: 210px auto;
+    gap: 127px;
     display: flex;
-    margin-top: 210px;
+    justify-content: center;
+    transform: translateX(290px);
 }
