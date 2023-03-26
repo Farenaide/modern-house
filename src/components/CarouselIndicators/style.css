@@ -1,0 +1,53 @@
+
+.carousel-indicators{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.carousel-indicators__input{
+    appearance: none;
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-light-gray-2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.carousel-indicators__input:checked{
+    background-color: var(--color-green);
+}
+
+
+.carousel-indicators__button--left,.carousel-indicators__button--right{
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    margin: 0 7px;
+}
+
+.carousel-indicators__button--left span,.carousel-indicators__button--right span{
+    display: none;
+}
+
+.carousel-indicators__button--left::after{
+    content: url('../../assets/visual/arrow.svg');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+
+.carousel-indicators__button--right::after{
+    content: url('../../assets/visual/arrow.svg');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+    margin-top: 4px;
+}
