@@ -1,0 +1,20 @@
+.metrics-information{
+    display: flex;
+    flex-direction: column;
+}
+
+.metrics-information__number{
+    font-family: var(--font-DmSans);    
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    text-transform: uppercase;
+}
+
+.metrics-information__content{
+    font-family: var(--font-DmSans);    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
