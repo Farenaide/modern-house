@@ -2,6 +2,7 @@ import ArchedImage from "../../components/ArchedImage"
 import CircleWaves from "../../components/CircleWaves/index.js"
 import MainButton from "../../components/MainButton"
 import MainTitle from "../../components/MainTitle"
+import WelcomeCircle from "../../components/WelcomeCircle"
 import "./style.css"
 
 const MainScreen = ()=>{
@@ -12,7 +13,8 @@ const MainScreen = ()=>{
                 ${MainButton('REQUEST A CALL','main-button--large')}
             </div>
             ${CircleWaves()}
-            ${ArchedImage()}
+            ${WelcomeCircle('welcome to')}
+            ${ArchedImage('Rectangle 207')}
         </div>
         
     `

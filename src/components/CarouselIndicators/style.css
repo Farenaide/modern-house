@@ -1,8 +1,10 @@
 
 .carousel-indicators{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 14px;
+    width: 100%;
 }
 
 .carousel-indicators__input{

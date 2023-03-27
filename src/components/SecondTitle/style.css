@@ -3,6 +3,10 @@
     font-weight: 400;
     font-size: 60px;
     text-transform: uppercase;
-    width: 370px;
+    width: 500px;
     height: 180px;
+}
+
+.second-title--smaller{
+    width: 370px;
 }
