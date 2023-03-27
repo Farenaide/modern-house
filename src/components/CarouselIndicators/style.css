@@ -36,7 +36,7 @@
 }
 
 .carousel-indicators__button--left::after{
-    content: url('../../assets/visual/arrow.svg');
+    content: url('../../assets/arrow.svg');
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -44,7 +44,7 @@
 }
 
 .carousel-indicators__button--right::after{
-    content: url('../../assets/visual/arrow.svg');
+    content: url('../../assets/arrow.svg');
     display: inline-block;
     width: 20px;
     height: 20px;

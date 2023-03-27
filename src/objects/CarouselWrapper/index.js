@@ -6,7 +6,7 @@ const CarouselWrapper = ()=>{
     return/* html */ `
         <div class="carousel-wrapper">
             ${MainCarousel()}
-            ${CarouselIndicators('window.indicators.checkedImage(event)','window.indicators.checkedImage(event)','window.indicators.checkedImage(event)')}
+            ${CarouselIndicators('window.indicators.checkedImage(event)')}
         </div>
     `
 }

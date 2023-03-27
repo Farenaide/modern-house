@@ -3,7 +3,7 @@ import "./style.css"
 const CircleWaves = ()=>{
     return /* html */ `
         <figure class="circle-waves">
-            <img src="/src/assets/visual/waves.png " alt="">
+            <img src="/src/assets/waves.png " alt="">
         </figure>
     `
 }
