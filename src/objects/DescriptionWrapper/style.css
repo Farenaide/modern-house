@@ -1,0 +1,29 @@
+.description-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 798px;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+    max-width: 1170px;
+    margin: 125px auto 0;
+    position: relative;
+}
+
+.description-wrapper__price{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.description-wrapper__waves > .circle-waves{
+    top: 70px;
+    right: -254px;
+}
+.description-wrapper__waves > .circle-waves > img {
+    width: 625px;
+    height: 572px;
+    transform: rotateY(180deg);
+    filter: drop-shadow(1px 0px 0px var(--color-light-gray));
+    opacity: .5;
+}
