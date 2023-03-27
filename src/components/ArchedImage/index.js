@@ -1,10 +1,9 @@
 import "./style.css"
 
-const ArchedImage = ()=>{
+const ArchedImage = (name)=>{
     return /* html */`
         <figure class="arched-image">
-            <img class="arched-image__welcome" src="src/assets/welcome.png">
-            <img class="arched-image__img" src="src/assets/Rectangle 207.png" alt="Modern home interior">
+            <img class="arched-image__img" src="src/assets/${name}.png" alt="Modern home interior">
         </figure>
     `
 }
