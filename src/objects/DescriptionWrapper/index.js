@@ -25,7 +25,7 @@ const DescriptionWrapper = ()=>{
                 ${MainButton('buy now','main-button--large')}
             </div>
             <dd class="description-wrapper__image">
-                ${ArchedImage('Rectangle 216')}
+                ${ArchedImage('Rectangle 216.png')}
             </dd>
             <div class="description-wrapper__waves">${CircleWaves()}</div>
             <div class="description-wrapper__reviews">

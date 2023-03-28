@@ -2,10 +2,11 @@ import "./style.css"
 
 const ExclusiveAgents = (content)=>{
 
-    const agentsArr = ['Agent1','Agent2','Agent3','Agent4']
+    const agentsArr = ['Agent1.png','Agent2.png','Agent3.png','Agent4.png']
     let agentString = ''
     agentsArr.map((agent)=>{
-        agentString = `<img src="src/assets/${agent}.png" alt="${agent} picture">` + agentString
+        let agentUrl = new URL(`/src/assets/${agent}`, import.meta.url).href
+        agentString = `<img src="${agentUrl}" alt="${agent} picture">` + agentString
     })
 
     return/* html */ `
