@@ -8,6 +8,7 @@
     max-width: 1170px;
     margin: 125px auto 0;
     position: relative;
+    align-content: space-between;
 }
 
 .description-wrapper__price{
@@ -16,14 +17,26 @@
     align-items: center;
 }
 
-.description-wrapper__waves > .circle-waves{
+.description-wrapper__waves{
+    position: absolute;
+    z-index: -1;
     top: 70px;
     right: -254px;
 }
+
+
 .description-wrapper__waves > .circle-waves > img {
     width: 625px;
     height: 572px;
     transform: rotateY(180deg);
     filter: drop-shadow(1px 0px 0px var(--color-light-gray));
     opacity: .5;
+}
+
+.description-wrapper__reviews{
+    position: absolute;
+    top: 440px;
+    right: 0;
+    top:439px;
+    right: -134px;
 }

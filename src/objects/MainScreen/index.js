@@ -12,7 +12,9 @@ const MainScreen = ()=>{
                 ${MainTitle('the modern house')}
                 ${MainButton('REQUEST A CALL','main-button--large')}
             </div>
-            ${CircleWaves()}
+            <div class="main-screen__waves">
+                ${CircleWaves()}
+            </div>
             ${WelcomeCircle('welcome to')}
             ${ArchedImage('Rectangle 207')}
         </div>

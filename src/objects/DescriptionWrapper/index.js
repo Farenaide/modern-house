@@ -4,6 +4,7 @@ import MainButton from "../../components/MainButton"
 import MainParagraph from "../../components/MainParagraph"
 import MetricsInformation from "../../components/MetricsInformation"
 import SecondTitle from "../../components/SecondTitle"
+import StarReviews from "../../components/StarReviews"
 import "./style.css"
 
 const DescriptionWrapper = ()=>{
@@ -22,10 +23,13 @@ const DescriptionWrapper = ()=>{
                 </dd>
                 ${MainButton('buy now','main-button--large')}
             </div>
-            <dd>
-            ${ArchedImage('Rectangle 216')}
+            <dd class="description-wrapper__image">
+                ${ArchedImage('Rectangle 216')}
             </dd>
             <div class="description-wrapper__waves">${CircleWaves()}</div>
+            <div class="description-wrapper__reviews">
+                ${StarReviews('4','120 reviews')}
+            </div>
         </dl>
     `
 }

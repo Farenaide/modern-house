@@ -11,3 +11,10 @@
 .main-screen__left .main-button {
     margin-top: 68px;
 }
+
+.main-screen__waves{
+    position: absolute;
+    right: 630px;
+    top: 38px;
+    z-index: -1;
+}
