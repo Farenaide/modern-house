@@ -1,9 +1,10 @@
+import GoldenStars from "../GoldenStars"
 import "./style.css"
 
 const StarReviews = (value = 5, content)=>{
     return/* html */ `
         <article class="star-reviews">
-            <progress class="star-reviews__progress" max='5' value='${value}'>${value} estrelas</progress>
+            ${GoldenStars()}
             <span class="star-reviews__span">${content}</span>
         </article>
     `

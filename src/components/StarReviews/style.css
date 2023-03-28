@@ -12,63 +12,10 @@
     justify-content: center;
 }
 
-progress{
-    -moz-appearance: initial ;
-    appearance: initial;
-}
-
-.star-reviews__progress{
-    border: none;
-    -webkit-appearance: none;
-    appearance: none;
-    position: relative;
-    height: 21px;
-    width: 152px;
-    background:transparent;
-    
-}
-
-.star-reviews__progress::-webkit-progress-bar {
-    background:transparent;
-}
-.star-reviews__progress::-moz-progress-bar {
-    background: #FD9904;
-}
-
-.star-reviews__progress::-webkit-progress-value{
-    background:  #FD9904;  
-}
-
-
-
-.star-reviews::after{
-    box-sizing: border-box;
-    content: '\2605\2605\2605\2605\2605';
-    position: absolute;
-    width: 152px;
-    top: 13px;
-    left: 34px;    
-    letter-spacing: 12px;
-    font-size: 25px;
-    background: rgb(255, 255, 255);
-    color: black;
-    mix-blend-mode: lighten;    
-}
-
-.star-reviews::before{
-    content: '\2605\2605\2605\2605\2605';
-    position: absolute; 
-    top: 13px;
-    left: 34px;    
-    letter-spacing: 12px;
-    font-size: 25px;
-    color: transparent;
-    -webkit-text-stroke: 1px #FD9904;
-} 
-
 .star-reviews__span{
     font-family: var(--font-DmSans);
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 400;
 }   
+ 
