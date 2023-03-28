@@ -40,3 +40,9 @@
     top:439px;
     right: -134px;
 }
+
+.description-wrapper__agents{
+    position: absolute;
+    right: 454px;
+    top: 642px;
+}

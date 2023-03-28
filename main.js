@@ -10,7 +10,6 @@ import MainScreen from "./src/objects/MainScreen";
 import CarouselWrapper from "./src/objects/CarouselWrapper";
 import DescriptionWrapper from "./src/objects/DescriptionWrapper";
 
-
 const $root = document.querySelector('#root');
 
 
