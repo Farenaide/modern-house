@@ -1,6 +1,6 @@
 import "./style.css"
 
-const StarReviews = (value, content)=>{
+const StarReviews = (value = 5, content)=>{
     return/* html */ `
         <article class="star-reviews">
             <progress class="star-reviews__progress" max='5' value='${value}'>${value} estrelas</progress>
