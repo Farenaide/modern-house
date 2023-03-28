@@ -1,0 +1,37 @@
+.description-wrapper2{
+    display: flex;
+    flex-direction: column;
+    height: 798px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    max-width: 1170px;
+    margin: 125px auto 0;
+    position: relative;
+    align-content: space-between;
+    gap: 64px;
+}
+
+.description-wrapper2__waves{
+    position: absolute;
+    top: 113px;
+    left: -313px; 
+    z-index: -1;    
+}
+
+.description-wrapper2__waves > figure > img{
+    width: 625px;
+    filter: drop-shadow(1px 0px 0px var(--color-light-gray));
+    opacity: .5;
+}
+
+.description-wrapper2__title{
+    width: 473px;
+}
+
+
+.description-wrapper2__information dd {
+    width: 50%;
+    float: left;
+    margin-bottom: 48px;
+}
+
