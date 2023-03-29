@@ -2,18 +2,22 @@
     position: relative;
 }
 
+.mask{
+    -webkit-mask-image: url(../../assets/star.svg);
+        mask-image: url(../../assets/star.svg);
+}
+
 .golden-stars__progress{
     border: none;
     -webkit-appearance: none;
     appearance: none;
-    position: relative;
-    height: 21px;
     width: 152px;
-    background:transparent;
+    height: 20px;
+    background:#77777744;
 }
 
 .golden-stars__progress::-webkit-progress-bar {
-    background:transparent;
+    background:#9e9e9e00;
 }
 .golden-stars__progress::-moz-progress-bar {
     background: #FD9904;
@@ -22,31 +26,6 @@
 .golden-stars__progress::-webkit-progress-value{
     background:  #FD9904;  
 }
-
-.golden-stars::after{
-    box-sizing: border-box;
-    content: '\2605\2605\2605\2605\2605';
-    position: absolute;
-    width: 152px;
-    top: 0px;
-    left: 0px;    
-    letter-spacing: 12px;
-    font-size: 25px;
-    background: #fff;
-    color: #000;
-    mix-blend-mode: lighten;    
-}
-
-.golden-stars::before{
-    content: '\2605\2605\2605\2605\2605';
-    position: absolute; 
-    top: 0px;
-    left: 0px;    
-    letter-spacing: 12px;
-    font-size: 25px;
-    color: transparent;
-    -webkit-text-stroke: 1px #FD9904;
-} 
 
 .golden-stars__span{
     font-family: var(--font-DmSans);
