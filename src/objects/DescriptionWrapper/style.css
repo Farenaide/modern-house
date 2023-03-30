@@ -3,12 +3,18 @@
     flex-direction: column;
     height: 798px;
     flex-wrap: wrap;
-    gap: 48px;
     justify-content: center;
     max-width: 1170px;
     margin: 125px auto 0;
     position: relative;
     align-content: space-between;
+}
+
+.description-wrapper__left{
+    width: 513px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
 
 .description-wrapper__price{

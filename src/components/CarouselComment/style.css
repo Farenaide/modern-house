@@ -1,0 +1,26 @@
+.carousel-comment{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+    width: 501px;
+    height: 164px;
+    position: relative;
+}
+
+.carousel-comment__text{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+.carousel-comment__stars{
+    scale: .65;
+    margin-left: -65px;
+}
+
+.carousel-commnet__aspas{
+    position: absolute;
+    right: 15px;
+    bottom: 28px;
+}
