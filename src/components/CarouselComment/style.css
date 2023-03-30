@@ -13,10 +13,17 @@
     gap: 18px;
 }
 
+.carousel-comment__stars .star-rating {
+    margin-left: -7px;
+}
 
-.carousel-comment__stars{
-    scale: .65;
-    margin-left: -65px;
+.carousel-comment__stars .star-rating__star {
+    margin-left: 7px;
+}
+
+.carousel-comment__stars .star-rating__star > svg{
+    width: 13px;
+    height: 13px;
 }
 
 .carousel-commnet__aspas{

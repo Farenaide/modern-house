@@ -23,7 +23,7 @@ $root.insertAdjacentHTML('beforeend',
   ${CarouselWrapper()}
   ${DescriptionWrapper()}
   ${DescriptionWrapper2()}
-  ${CarouselComment('user1.png')}
+  ${CarouselComment('user1.png','4')}
   `
 )
 
