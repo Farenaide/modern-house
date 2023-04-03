@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+    cursor: none;
 }
 
 .carousel-indicators__input:checked{
