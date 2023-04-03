@@ -5,3 +5,15 @@
     justify-content: center;
     transform: translateX(290px);
 }
+
+.main-carousel__image{
+    transition: opacity ease-in;
+}
+
+.main-carousel__image.--margin{
+    margin-right: 455px;
+}
+
+.main-carousel__menu{
+    position: absolute;
+}

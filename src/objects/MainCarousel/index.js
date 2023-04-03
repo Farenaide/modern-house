@@ -5,15 +5,22 @@ import "./style.css"
 const MainCarousel = ()=>{
     return/* html */ `
         <div class="main-carousel">
-            ${CarouselImage('apartment1.jpg', '1')}
-            ${CarouselImage('apartment2.jpg', '2')}
-            ${ChoiceMenu()}
-            ${CarouselImage('apartment3.jpg', '3')}
-            ${CarouselImage('apartment4.jpg', '4')}
+            <div class="main-carousel__menu">
+                ${ChoiceMenu()}
+            </div>
+            <div class="main-carousel__image">
+                ${CarouselImage('apartment1.jpg')}
+            </div>
+            <div class="main-carousel__image --margin">
+                ${CarouselImage('apartment2.jpg')}
+            </div>
+            <div class="main-carousel__image">
+                ${CarouselImage('apartment3.jpg')}
+            </div>
+            <div class="main-carousel__image">
+                ${CarouselImage('apartment4.jpg')}
+            </div>
         </div>
     `
 }
-
-
-
 export default MainCarousel
