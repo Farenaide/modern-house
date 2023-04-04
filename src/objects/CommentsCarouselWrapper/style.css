@@ -1,10 +1,16 @@
 .comments-wrapper{
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.comments-wrapper_wrapper{
     margin: 120px auto 0;
     width: 1170px;
     position: relative;
 }
 
-.comments-wrapper::after{
+.comments-wrapper_wrapper::after{
     content: '';
     width: 1050px;
     height: 100%;
@@ -14,7 +20,7 @@
     left: -1050px;
 }
 
-.comments-wrapper__wrapper{
+.comments-wrapper__top{
     display: flex;
     justify-content: space-between;
     width: 100%;

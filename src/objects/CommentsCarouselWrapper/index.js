@@ -7,8 +7,8 @@ const CommentsCarouselWrapper = ()=>{
     return/* html */ `
          
         <div class="comments-wrapper">
-            <div>
-                <div class="comments-wrapper__wrapper">
+            <div class="comments-wrapper_wrapper">
+                <div class="comments-wrapper__top">
                     ${SecondTitle('our beloved clients says')}
                     ${CarouselIndicators('window.commentCarousel.voltar(event)', 'window.commentCarousel.avancar(event)')}
                 </div>
