@@ -5,6 +5,7 @@
     margin:0;
     padding: 0;
     justify-content: center;
+    cursor: pointer;
 }
 
 .star-rating li:first-child{
@@ -18,6 +19,7 @@
     margin: 0;
     margin-left: 12px;
     cursor: pointer;
+    transition: filter 100ms ease-in;
 }
 
 .star-rating__star--disabled{

@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     gap: 14px;
-    width: 100%;
 }
 
 .carousel-indicators__input{
@@ -17,7 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: none;
 }
 
 .carousel-indicators__input:checked{

@@ -2,14 +2,14 @@ import "./style.css"
 
 const CarouselIndicators = (eventPrevious, eventNext)=>{
     return/* html */ `
-        <div class="carousel-indicators">
-            <button class="carousel-indicators__button--left" id="previous" type="reset" onclick=${eventPrevious}><span>Previous</span></button>
+        <form class="carousel-indicators">
+            <button class="carousel-indicators__button--left" id="previous" type="button" onclick=${eventPrevious}><span>Previous</span></button>
             <input class="carousel-indicators__input" id="item1" name="indicators" checked type="radio" disabled>
             <input class="carousel-indicators__input" id="item2" name="indicators" type="radio" disabled>
             <input class="carousel-indicators__input" id="item3" name="indicators" type="radio" disabled>
             <input class="carousel-indicators__input" id="item4" name="indicators" type="radio" disabled>
-            <button class="carousel-indicators__button--right" id="next" type="reset" onclick=${eventNext}><span>Next</span></button>
-        </div>
+            <button class="carousel-indicators__button--right" id="next" type="button" onclick=${eventNext}><span>Next</span></button>
+        </form>
     `
 }
 window.indicators={}
@@ -18,7 +18,7 @@ window.indicators.radios = (direction, event)=>{
     $allRadios.shift()
     $allRadios.pop()
     const $selected = $allRadios.filter(element=> {return element.checked} )
-        if(direction == 'right'){
+    if(direction == 'right'){
         $selected[0].nextElementSibling.checked=true
         if($selected[0] == $allRadios[$allRadios.length - 1]){
             $allRadios[0].checked=true

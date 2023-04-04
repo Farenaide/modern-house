@@ -6,7 +6,9 @@ const ApartmentsCarouselWrapper = ()=>{
     return/* html */ `
         <div class="carousel-wrapper">
             ${MainCarousel()}
-            ${CarouselIndicators('window.apartmentsCarousel.voltar(event)', 'window.apartmentsCarousel.avancar(event)')}
+            <div class="carousel-wrapper__indicators">
+                ${CarouselIndicators('window.apartmentsCarousel.previous(event)', 'window.apartmentsCarousel.next(event)')}
+            </div>
         </div>
     `
 }
@@ -41,7 +43,7 @@ const fadeIn = (element)=>{
     }, 0);
 }
 
-window.apartmentsCarousel.avancar = (event)=>{
+window.apartmentsCarousel.next = (event)=>{
     window.indicators.radios('right', event)
     const $allImages = allImages()
     const $firstElement = $allImages[0]
@@ -51,7 +53,7 @@ window.apartmentsCarousel.avancar = (event)=>{
     fadeIn($firstElement)             
 }
 
-window.apartmentsCarousel.voltar = (event)=>{
+window.apartmentsCarousel.previous = (event)=>{
     window.indicators.radios('left', event)
     const $allImages = allImages()
     const $firstElement = $allImages[0]
