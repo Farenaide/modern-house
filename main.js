@@ -12,7 +12,7 @@ import DescriptionWrapper2 from "./src/objects/DescriptionWrapper2";
 import ApartmentsCarouselWrapper from "./src/objects/ApartmentsCarouselWrapper";
 import CommentsCarouselWrapper from "./src/objects/CommentsCarouselWrapper";
 import ContactUs from "./src/components/ContactUs";
-import FooterList from "./src/components/FooterList";
+import MainFooter from "./src/objects/MainFooter";
 
 const $root = document.querySelector('#root');
 
@@ -26,7 +26,7 @@ $root.insertAdjacentHTML('beforeend',
   ${DescriptionWrapper2()}
   ${CommentsCarouselWrapper()}
   ${ContactUs()}
-  ${FooterList('company',['how rls works', 'what can not ship', 'your privacy rights'])}
+  ${MainFooter()}
   `
 )
 
