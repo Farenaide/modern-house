@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     gap: 32px;
+    position: relative;
 }
 
 .contact-us__title h2{
@@ -21,4 +22,18 @@
 .contact-us__button button{
     color: var(--color-ice);
     border-color: var(--color-ice);
+}
+
+
+.contact-us__waves{
+    position: absolute;
+    left: 832px;
+    top: 105px;
+    z-index: -1;
+}
+
+.contact-us__waves > figure > img{
+    width: 460px;
+    filter: drop-shadow(1px 0px 0px var(--color-light-gray));
+    opacity: .5;
 }

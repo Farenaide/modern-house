@@ -1,6 +1,7 @@
 import "./style.css"
 import SecondTitle from "../SecondTitle"
 import MainButton from "../MainButton"
+import CircleWaves from "../CircleWaves"
 
 const ContactUs = ()=>{
     return/* html */ `
@@ -11,6 +12,9 @@ const ContactUs = ()=>{
             <div class="contact-us__button">  
                 ${MainButton('contact us','main-button--large main-button--transparent')}
             </div>
+            <div class="contact-us__waves">
+                ${CircleWaves()}
+            </div>  
         </article>
     `
 }
