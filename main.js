@@ -11,6 +11,7 @@ import DescriptionWrapper from "./src/objects/DescriptionWrapper";
 import DescriptionWrapper2 from "./src/objects/DescriptionWrapper2";
 import ApartmentsCarouselWrapper from "./src/objects/ApartmentsCarouselWrapper";
 import CommentsCarouselWrapper from "./src/objects/CommentsCarouselWrapper";
+import ContactUs from "./src/components/ContactUs";
 
 const $root = document.querySelector('#root');
 
@@ -23,6 +24,7 @@ $root.insertAdjacentHTML('beforeend',
   ${DescriptionWrapper()}
   ${DescriptionWrapper2()}
   ${CommentsCarouselWrapper()}
+  ${ContactUs()}
   `
 )
 
