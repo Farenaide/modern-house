@@ -11,15 +11,15 @@ const MainFooter = ()=>{
                 </div>
 
                 ${FooterList('company',
-                ['how RLS works',
-                'what can not ship',
-                'your privacy rights'])}
+                ['How RLS works',
+                'What can not ship',
+                'Your privacy rights'])}
 
                 ${FooterList('about RLS',
                 ['RLS reviews',
-                'latest news',
-                'partner with RLS',
-                'career with RLS'])}
+                'Latest news',
+                'Partner with RLS',
+                'Career with RLS'])}
 
                 ${FooterList('our community',
                 ['Facebook.com',

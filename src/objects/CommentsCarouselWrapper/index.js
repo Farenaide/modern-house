@@ -33,11 +33,10 @@ const CommentsCarouselWrapper = ()=>{
 
 window.commentCarousel={}
 
-const timeAnimation = 900
+const timeAnimation = 800
 
 const disableButtons = (event)=>{
     const $eventClick = event.target
-    console.log([...$eventClick.parentNode.children]);
     const $indicatorButtons = [[...$eventClick.parentNode.children][0], [...$eventClick.parentNode.children][[...$eventClick.parentNode.children].length - 1]]
 
     $indicatorButtons.map(element => {

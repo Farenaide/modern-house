@@ -16,7 +16,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    text-transform: capitalize;
-    margin-bottom:18px;
     color: var(--color-light-gray);
+}
+
+.footer-list__ul{
+    display: flex;
+    flex-direction: column;
+    gap:18px;
 }
