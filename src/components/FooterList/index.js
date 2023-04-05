@@ -4,7 +4,7 @@ const FooterList = (title = 'lorem', array=['lorem ipsum']) =>{
     const contentArray = array
     let content = ''
     contentArray.map((element)=>{
-        content = `<li>${element}</li> ` + content
+        content = content + `<li>${element}</li> ` 
     })
     return/* html */ `
         <article class="footer-list">
