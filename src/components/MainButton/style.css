@@ -9,6 +9,11 @@
     background-color: var(--color-green);
     padding: 14px 24px;
     cursor: pointer;
+    transition: scale .1s ease-in-out;
+}
+
+.main-button:hover{
+    scale: 1.05;
 }
 
 .main-button--transparent{    
