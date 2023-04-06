@@ -10,22 +10,28 @@ const MainFooter = ()=>{
                     ${LogoRls()}
                 </div>
 
-                ${FooterList('company',
-                ['How RLS works',
-                'What can not ship',
-                'Your privacy rights'])}
+                <div class="main-footer__list">
+                    ${FooterList('company',
+                    ['How RLS works',
+                    'What can not ship',
+                    'Your privacy rights'])}
+                </div>
 
-                ${FooterList('about RLS',
-                ['RLS reviews',
-                'Latest news',
-                'Partner with RLS',
-                'Career with RLS'])}
+                <div class="main-footer__list">
+                    ${FooterList('about RLS',
+                    ['RLS reviews',
+                    'Latest news',
+                    'Partner with RLS',
+                    'Career with RLS'])}
+                </div>
 
-                ${FooterList('our community',
-                ['Facebook.com',
-                'Twitter.com',
-                'Linkedin.com',
-                'hello@rls.com'])}
+                <div class="main-footer__list">
+                    ${FooterList('our community',
+                    ['Facebook.com',
+                    'Twitter.com',
+                    'Linkedin.com',
+                    'hello@rls.com'])}
+                </div>
 
             </div>
         </footer>

@@ -1,5 +1,5 @@
 .contact-us{
-    width: 1170px;
+    max-width: 1170px;
     height: 350px;
     background-color: var(--color-green);
     margin: 120px auto 0 ;
@@ -12,7 +12,7 @@
 }
 
 .contact-us__title h2{
-    width: 610px;
+    max-width: 610px;
     font-weight: 400;
     font-size: 48px;
     text-align: center;
