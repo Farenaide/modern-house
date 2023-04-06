@@ -25,15 +25,17 @@
 
 @media (max-width: 575.98px){ /* Extra Small */
     .main-footer{
-        height: 350px;
+        height: auto;
+        padding: 100px 0;
     }
 
     .main-footer__wrapper{
         margin: 0 auto;
         display: flex;
-        justify-content: space-around;
-        align-items: start;
-        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        gap: 100px;
     }
 
     .main-footer__logo{
@@ -41,22 +43,16 @@
         bottom: 10px;
         right: 10px;
     }
+
+    .main-footer__list{
+        width: 150px;
+        margin: 0 auto;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){ /* Small */
     .main-footer{
         height: 350px;
     }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px){ /* Medium */
-
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px){ /* Large */
-
-}
-
-@media (min-width: 1200px){ /* Extra Large */
-
 }

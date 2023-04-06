@@ -1,3 +1,10 @@
 body{
     background-color: var(--color-ice);
+
 }
+
+#root{
+    min-width: 375px;
+    overflow: hidden;
+}
+

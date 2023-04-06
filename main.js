@@ -24,7 +24,7 @@ $root.insertAdjacentHTML('beforeend',
   ${ApartmentsCarouselWrapper()}
   ${DescriptionWrapper()}
   ${DescriptionWrapper2()}
-  ${CommentsCarouselWrapper()}
+  ${CommentsCarouselWrapper()} 
   ${ContactUs()}
   ${MainFooter()}
   `
