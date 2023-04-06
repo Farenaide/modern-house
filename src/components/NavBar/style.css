@@ -15,5 +15,22 @@
 }
 
 .nav-bar__link{
-    color: var(--color-black);
+    color: var(--color-black);  
+    position: relative;
+}
+
+.nav-bar__link::after{
+    content: '';
+    position: absolute;
+    display: flex;    
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 2px solid var(--color-green);
+    transition: all .3s ease-in-out;
+}
+
+.nav-bar__link:hover::after{
+    width: 100%;
+    transform: translateX(-50%);
 }
