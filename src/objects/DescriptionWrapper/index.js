@@ -12,17 +12,19 @@ const DescriptionWrapper = ()=>{
     return/* html */ `
         <dl class="description-wrapper">
             <div class="description-wrapper__left">
-                <dt>
+                <dt class="description-wrapper__title">
                     ${SecondTitle('minimalist vintage family house')}
                 </dt>
-                <dd>
+                <dd class="description-wrapper__paragraph">
                     ${MainParagraph('Minimalistic vintage family house is a beautiful and charming property combines simplicity and elegance of minimalism with the character and warmth of vintage style.')}
                 </dd>
                 <div class="description-wrapper__price">
                     <dd>
                     ${MetricsInformation('$650')}
                     </dd>
-                    ${MainButton('buy now','main-button--large')}
+                    <div class="description-wrapper__button">
+                        ${MainButton('buy now','main-button--large')}
+                    </div>
                 </div>
             </div>
             <dd class="description-wrapper__image">
