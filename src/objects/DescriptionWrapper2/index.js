@@ -33,7 +33,7 @@ const DescriptionWrapper2 = ()=>{
              
             
             <dd class="description-wrapper2__image">
-                ${ArchedImage('Rectangle 214.png')}
+                ${ArchedImage('Rectangle 214.png','Outside modern house')}
             </dd>
                       
         </dl>

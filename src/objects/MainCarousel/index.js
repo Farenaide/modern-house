@@ -9,16 +9,16 @@ const MainCarousel = ()=>{
                 ${ChoiceMenu()}
             </div>
             <div class="main-carousel__image">
-                ${CarouselImage('apartment1.jpg')}
+                ${CarouselImage('apartment1.jpg','Interior apartment 1')}
             </div>
             <div class="main-carousel__image --margin">
-                ${CarouselImage('apartment2.jpg')}
+                ${CarouselImage('apartment2.jpg','Interior apartment 2')}
             </div>
             <div class="main-carousel__image">
-                ${CarouselImage('apartment3.jpg')}
+                ${CarouselImage('apartment3.jpg', 'Interior apartment 3')}
             </div>
             <div class="main-carousel__image">
-                ${CarouselImage('apartment4.jpg')}
+                ${CarouselImage('apartment4.jpg', 'Interior apartment 4')}
             </div>
         </div>
     `

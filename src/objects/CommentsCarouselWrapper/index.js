@@ -14,16 +14,16 @@ const CommentsCarouselWrapper = ()=>{
                 </div>
                 <div class="comments-wrapper__itens">
                     <div class="comments-wrapper__comment">
-                        ${CarouselComment('user1.png','4')}
+                        ${CarouselComment('user1.png','4','User Alex')}
                     </div>
                     <div class="comments-wrapper__comment">
-                        ${CarouselComment('user2.png','3')}
+                        ${CarouselComment('user2.png','3','User Pablo')}
                     </div>
                     <div class="comments-wrapper__comment">
-                        ${CarouselComment('user3.png','5')}
+                        ${CarouselComment('user3.png','5','User Alejandro')}
                     </div>
                     <div class="comments-wrapper__comment">
-                        ${CarouselComment('user4.png','4')}
+                        ${CarouselComment('user4.png','4','User John')}
                     </div>
                 </div>
             </div>
