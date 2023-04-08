@@ -15,8 +15,10 @@ const MainScreen = ()=>{
             <div class="main-screen__waves">
                 ${CircleWaves()}
             </div>
-            ${WelcomeCircle('welcome to')}
-            ${ArchedImage('Rectangle 207.jpg','Modern home interior')}
+            <div class="main-screen__image">
+                ${WelcomeCircle('welcome to')}
+                ${ArchedImage('Rectangle 207.jpg','Modern home interior')}
+            </div>
         </div>
         
     `
