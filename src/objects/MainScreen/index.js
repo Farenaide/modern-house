@@ -16,7 +16,7 @@ const MainScreen = ()=>{
                 ${CircleWaves()}
             </div>
             ${WelcomeCircle('welcome to')}
-            ${ArchedImage('Rectangle 207.png','Modern home interior')}
+            ${ArchedImage('Rectangle 207.jpg','Modern home interior')}
         </div>
         
     `

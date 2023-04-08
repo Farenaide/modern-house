@@ -18,3 +18,25 @@
     top: 38px;
     z-index: -1;
 }
+
+@media (max-width: 575.98px){ /* Extra Small */
+   
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){ /* Small */
+  
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){ /* Medium */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){ /* Large */
+    .main-screen{
+        scale: .9;
+    }
+}
+
+@media (min-width: 1200px){ /* Extra Large */
+
+}

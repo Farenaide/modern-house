@@ -28,7 +28,7 @@ const DescriptionWrapper = ()=>{
                 </div>
             </div>
             <dd class="description-wrapper__image">
-                ${ArchedImage('Rectangle 216.png','Outside modern house')}
+                ${ArchedImage('Rectangle 216.jpg','Outside modern house')}
             </dd>
             <div class="description-wrapper__waves">${CircleWaves()}</div>
             <div class="description-wrapper__reviews">
