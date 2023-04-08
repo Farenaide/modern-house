@@ -1,4 +1,24 @@
 .arched-image__img{
     width: 589px;
     height: 798px;
+    border-radius: 300px 300px 0px 0px;
+    object-fit: cover;
+    object-position: center ;
+
+}
+
+@media (max-width: 575.98px){ /* Extra Small */
+   
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){ /* Small */
+    .arched-image__img{
+        border-radius: 300px 0px 0px 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){ /* Medium */
+    .arched-image__img{
+        border-radius: 300px 0px 0px 300px;
+    }
 }
