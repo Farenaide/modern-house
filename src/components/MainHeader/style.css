@@ -5,3 +5,31 @@
     align-items: center;
     margin: 40px auto 0;
 }
+
+@media (max-width: 575.98px){ /* Extra Small */
+   .main-header__logo{
+        display: none;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){ /* Small */
+    .main-header__logo{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){ /* Medium */
+    .main-header__logo{
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){ /* Large */
+    .main-header__logo{
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1200px){ /* Extra Large */
+
+}
