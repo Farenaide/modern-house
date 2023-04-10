@@ -2,12 +2,6 @@ import ChoiceRadio from "../ChoiceRadio"
 import SecondTitle from "../SecondTitle"
 import "./style.css"
 
-window.selecao = {}
-window.selecao.selectedRadio = ()=>{
-    const selectedRadio = document.querySelectorAll('.choice-radio__input[type="radio"]:checked')
-    console.log(selectedRadio)
-} 
-
 const ChoiceMenu = ()=>{
     return/* html */ `
         <form class="choice-menu" onchange="window.selecao.selectedRadio()">
