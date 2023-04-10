@@ -3,12 +3,12 @@ import "./style.css"
 const CarouselIndicators = (eventPrevious, eventNext)=>{
     return/* html */ `
         <form class="carousel-indicators">
-            <button class="carousel-indicators__button--left" id="previous" type="button" onclick=${eventPrevious} aria-label="previous"><span>Previous</span></button>
-            <input class="carousel-indicators__input" id="item1" name="indicators" checked type="radio" disabled>
-            <input class="carousel-indicators__input" id="item2" name="indicators" type="radio" disabled>
-            <input class="carousel-indicators__input" id="item3" name="indicators" type="radio" disabled>
-            <input class="carousel-indicators__input" id="item4" name="indicators" type="radio" disabled>
-            <button class="carousel-indicators__button--right" id="next" type="button" onclick=${eventNext} aria-label="next"><span>Next</span></button>
+            <button class="carousel-indicators__button--left" type="button" onclick=${eventPrevious} aria-label="previous"><span>Previous</span></button>
+            <input class="carousel-indicators__input" name="indicators" checked type="radio" disabled>
+            <input class="carousel-indicators__input" name="indicators" type="radio" disabled>
+            <input class="carousel-indicators__input" name="indicators" type="radio" disabled>
+            <input class="carousel-indicators__input" name="indicators" type="radio" disabled>
+            <button class="carousel-indicators__button--right" type="button" onclick=${eventNext} aria-label="next"><span>Next</span></button>
         </form>
     `
 }
